@@ -5,7 +5,7 @@ stages {
     stage ('Build') {
       steps {
           echo 'Build'
-   }
+    }
 }
 stages {
     stage ('Test') {
@@ -17,7 +17,7 @@ stages {
     stage ('Sonarqube') {
       steps {
           echo 'Build'
-      }
+    }
 }
 stage ('Push to artifactory') {
     steps {
